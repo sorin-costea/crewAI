@@ -101,36 +101,41 @@ Here is a list of the available tools and their descriptions:
 
 | Tool                        | Description                                                                                   |
 | :-------------------------- | :-------------------------------------------------------------------------------------------- |
-| **BrowserbaseLoadTool**     | A tool for interacting with and extracting data from web browsers.                            |
-| **CodeDocsSearchTool**      | A RAG tool optimized for searching through code documentation and related technical documents. |
-| **CodeInterpreterTool**     | A tool for interpreting python code.                                                          |
-| **ComposioTool**            | Enables use of Composio tools.                                                                |
-| **CSVSearchTool**           | A RAG tool designed for searching within CSV files, tailored to handle structured data.       |
-| **DALL-E Tool**             | A tool for generating images using the DALL-E API.                                            |
-| **DirectorySearchTool**     | A RAG tool for searching within directories, useful for navigating through file systems.      |
-| **DOCXSearchTool**          | A RAG tool aimed at searching within DOCX documents, ideal for processing Word files.         |
-| **DirectoryReadTool**       | Facilitates reading and processing of directory structures and their contents.                |
-| **EXASearchTool**           | A tool designed for performing exhaustive searches across various data sources.               |
-| **FileReadTool**            | Enables reading and extracting data from files, supporting various file formats.              |
-| **FirecrawlSearchTool**     | A tool to search webpages using Firecrawl and return the results.                             |
-| **FirecrawlCrawlWebsiteTool** | A tool for crawling webpages using Firecrawl.                                               |
-| **FirecrawlScrapeWebsiteTool** | A tool for scraping webpages URL using Firecrawl and returning its contents.              |
-| **GithubSearchTool**        | A RAG tool for searching within GitHub repositories, useful for code and documentation search.|
-| **SerperDevTool**           | A specialized tool for development purposes, with specific functionalities under development. |
-| **TXTSearchTool**           | A RAG tool focused on searching within text (.txt) files, suitable for unstructured data.     |
-| **JSONSearchTool**          | A RAG tool designed for searching within JSON files, catering to structured data handling.     |
-| **LlamaIndexTool**          | Enables the use of LlamaIndex tools.                                                          |
-| **MDXSearchTool**           | A RAG tool tailored for searching within Markdown (MDX) files, useful for documentation.      |
-| **PDFSearchTool**           | A RAG tool aimed at searching within PDF documents, ideal for processing scanned documents.    |
-| **PGSearchTool**            | A RAG tool optimized for searching within PostgreSQL databases, suitable for database queries. |
-| **Vision Tool**             | A tool for generating images using the DALL-E API.                                            |
-| **RagTool**                 | A general-purpose RAG tool capable of handling various data sources and types.                |
-| **ScrapeElementFromWebsiteTool** | Enables scraping specific elements from websites, useful for targeted data extraction.   |
-| **ScrapeWebsiteTool**       | Facilitates scraping entire websites, ideal for comprehensive data collection.                |
-| **WebsiteSearchTool**       | A RAG tool for searching website content, optimized for web data extraction.                  |
-| **XMLSearchTool**           | A RAG tool designed for searching within XML files, suitable for structured data formats.     |
-| **YoutubeChannelSearchTool**| A RAG tool for searching within YouTube channels, useful for video content analysis.          |
-| **YoutubeVideoSearchTool**  | A RAG tool aimed at searching within YouTube videos, ideal for video data extraction.         |
+| [BrowserbaseLoadTool](https://docs.crewai.com/tools/BrowserbaseLoadTool/)     | A tool for interacting with and extracting data from web browsers.                            |
+| [CodeDocsSearchTool](https://docs.crewai.com/tools/CodeDocsSearchTool/)      | A RAG tool optimized for searching through code documentation and related technical documents. |
+| [CodeInterpreterTool](https://docs.crewai.com/tools/CodeInterpreterTool/)     | A tool for interpreting python code.                                                          |
+| [ComposioTool](https://docs.crewai.com/tools/ComposioTool/)            | Enables use of Composio tools.                                                                |
+| [CSVSearchTool](https://docs.crewai.com/tools/CSVSearchTool/)           | A RAG tool designed for searching within CSV files, tailored to handle structured data.       |
+| [DALL-E Tool](https://docs.crewai.com/tools/DALL-ETool/)             | A tool for generating images using the DALL-E API.                                            |
+| [DirectoryReadTool](https://docs.crewai.com/tools/DirectoryReadTool/)       | Facilitates reading and processing of directory structures and their contents.                |
+| [DirectorySearchTool](https://docs.crewai.com/tools/DirectorySearchTool/)     | A RAG tool for searching within directories, useful for navigating through file systems.      |
+| [DOCXSearchTool](https://docs.crewai.com/tools/DOCXSearchTool/)          | A RAG tool aimed at searching within DOCX documents, ideal for processing Word files.         |
+| [EXASearchTool](https://docs.crewai.com/tools/EXASearchTool/)           | A tool designed for performing exhaustive searches across various data sources.               |
+| [FirecrawlCrawlWebsiteTool](https://docs.crewai.com/tools/FirecrawlCrawlWebsiteTool/) | A tool for crawling webpages using Firecrawl.                                               |
+| [FirecrawlScrapeWebsiteTool](https://docs.crewai.com/tools/FirecrawlScrapeWebsiteTool/) | A tool for scraping webpages URL using Firecrawl and returning its contents.              |
+| [FirecrawlSearchTool](https://docs.crewai.com/tools/FirecrawlSearchTool/)     | A tool to search webpages using Firecrawl and return the results.                             |
+| [FileReadTool](https://docs.crewai.com/tools/FileReadTool/)            | Enables reading and extracting data from files, supporting various file formats.              |
+| [FileWriterTool](https://docs.crewai.com/tools/FileWriteTool/)            | Enables writing content to files, also creating new directories if they don't exist.              |
+| [GithubSearchTool](https://docs.crewai.com/tools/GitHubSearchTool/)        | A RAG tool for searching within GitHub repositories, useful for code and documentation search.|
+| [JSONSearchTool](https://docs.crewai.com/tools/JSONSearchTool/)          | A RAG tool designed for searching within JSON files, catering to structured data handling.     |
+| [LangChain tools](https://docs.crewai.com/core-concepts/Using-LangChain-Tools/)          | Integrate LangChain tools with CrewAI agents to enhance search-based queries and more.                                                          |
+| [LlamaIndex Tools](https://docs.crewai.com/core-concepts/Using-LlamaIndex-Tools/)          | Using LlamaIndex tools for advanced search-based queries and more.                                                          |
+| [MDXSearchTool](https://docs.crewai.com/tools/MDXSearchTool/)           | A RAG tool tailored for searching within Markdown (MDX) files, useful for documentation.      |
+| [MySQLSearchTool](https://docs.crewai.com/tools/MySQLTool/)            | A RAG tool optimized for searching within MySQL database tables, suitable for database queries. |
+| [NL2SQLTool](https://docs.crewai.com/tools/NL2SQLTool/)            | This tool is used to convert natural language to SQL queries. |
+| [PDFSearchTool](https://docs.crewai.com/tools/PDFSearchTool/)           | A RAG tool aimed at searching within PDF documents, ideal for processing scanned documents.    |
+| [PGSearchTool](https://docs.crewai.com/tools/PGSearchTool/)            | A RAG tool optimized for searching within PostgreSQL databases, suitable for database queries. |
+| [RagTool](https://github.com/crewAIInc/crewAI-tools/tree/main/crewai_tools/tools/rag)                 | A general-purpose RAG tool capable of handling various data sources and types.                |
+| [ScrapeWebsiteTool](https://docs.crewai.com/tools/ScrapeWebsiteTool/)       | Facilitates scraping entire websites, ideal for comprehensive data collection.                |
+| [SeleniumScrapingTool](https://docs.crewai.com/tools/SeleniumScrapingTool/) | Enables scraping specific elements from websites by using CSS/Selenium, useful for targeted data extraction.   |
+| [SerperDevTool](https://docs.crewai.com/tools/SerperDevTool/)           | A specialized tool for development purposes, with specific functionalities under development. |
+| [SpiderTool](https://docs.crewai.com/tools/SpiderTool/)           | Uses Spider the open source scraper and crawler to return LLM-ready data from any website. |
+| [TXTSearchTool](https://docs.crewai.com/tools/TXTSearchTool/)           | A RAG tool focused on searching within text (.txt) files, suitable for unstructured data.     |
+| [Vision Tool](https://docs.crewai.com/tools/VisionTool/)              | A tool for generating images using the DALL-E API.                                            |
+| [WebsiteSearchTool](https://docs.crewai.com/tools/WebsiteSearchTool/)       | A RAG tool for searching website content, optimized for web data extraction.                  |
+| [XMLSearchTool](https://docs.crewai.com/tools/XMLSearchTool/)           | A RAG tool designed for searching within XML files, suitable for structured data formats.     |
+| [YoutubeChannelSearchTool](https://docs.crewai.com/tools/YoutubeChannelSearchTool/)| A RAG tool for searching within YouTube channels, useful for video content analysis.          |
+| [YoutubeVideoSearchTool](https://docs.crewai.com/tools/YoutubeVideoSearchTool/)  | A RAG tool aimed at searching within YouTube videos, ideal for video data extraction.         |
 
 ## Creating your own Tools
 
